@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: sofitel.ggsk
-// Generated 2025-03-14T01:44:27
+// Generated 2025-03-14T01:48:47
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_thumbnail_menu_tooltip', 2, true, { ignoreInState: 1  });
@@ -141,9 +141,9 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 197px;';
+		hs+='bottom : 5%;';
 		hs+='height : 30px;';
-		hs+='left : 20px;';
+		hs+='left : 2%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 30px;';
@@ -178,11 +178,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
+		hs+='bottom : -12px;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
 		hs+='visibility : hidden;';
 		hs+='width : 42px;';
 		hs+='pointer-events:auto;';
@@ -276,11 +276,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
+		hs+='bottom : -12px;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 42px;';
 		hs+='pointer-events:auto;';
