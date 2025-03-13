@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: sofitel.ggsk
-// Generated 2025-03-14T01:48:47
+// Generated 2025-03-14T01:52:49
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_thumbnail_menu_tooltip', 2, true, { ignoreInState: 1  });
@@ -141,7 +141,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 5%;';
+		hs+='bottom : 8%;';
 		hs+='height : 30px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
@@ -371,12 +371,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='height : 88px;';
-		hs+='left : 0%;';
+		hs+='height : 49px;';
+		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 3.3%;';
+		hs+='top : 15px;';
 		hs+='visibility : inherit;';
-		hs+='width : 212px;';
+		hs+='width : 120px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
